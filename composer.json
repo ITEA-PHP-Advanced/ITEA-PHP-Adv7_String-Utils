@@ -9,5 +9,7 @@
             "email": "vladimir.kuprienko@itea.ua"
         }
     ],
-    "require": {}
+    "require": {
+        "symfony/polyfill-mbstring": "^1.18"
+    }
 }
