@@ -1,5 +1,7 @@
 <?php
 
+namespace ITEA;
+
 class StringUtil
 {
     public static function toLowerCase($str)
