@@ -14,7 +14,8 @@
         "symfony/polyfill-mbstring": "^1.18"
     },
     "require-dev": {
-        "phpunit/phpunit": "^9.3"
+        "phpunit/phpunit": "^9.3",
+        "sensiolabs/security-checker": "^6.0"
     },
     "autoload": {
         "psr-4": {
@@ -25,5 +26,13 @@
         "psr-4": {
             "ITEA\\Tests\\": "tests/"
         }
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "symfony security:check"
+        ],
+        "post-update-cmd": [
+            "security-checker security:check'"
+        ]
     }
 }
