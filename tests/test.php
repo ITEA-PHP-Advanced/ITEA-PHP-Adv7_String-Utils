@@ -2,4 +2,4 @@
 
 require_once __DIR__ . '/../src/StringUtil.php';
 
-echo StringUtil::toLower('LOWER') . \PHP_EOL;
+echo StringUtil::toLowerCase('LOWER') . \PHP_EOL;
