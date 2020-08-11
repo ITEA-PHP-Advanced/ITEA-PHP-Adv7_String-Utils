@@ -1,0 +1,13 @@
+{
+    "name": "itea/string-urls",
+    "description": "Some useful utils for work with strings in PHP.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Volodymyr Kupriienko",
+            "email": "vladimir.kuprienko@itea.ua"
+        }
+    ],
+    "require": {}
+}
